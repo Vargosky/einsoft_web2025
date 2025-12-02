@@ -26,6 +26,7 @@ const Navbar = () => {
         { name: 'Nuestra Tecnología', href: '/Services' },
         { name: 'Estrategia Electoral', href: '/Strategy' },
         { name: 'Casos de Éxito', href: '/Cases' },
+        { name: 'EinStore', href: '#store' },
     ];
 
     return (
