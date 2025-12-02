@@ -40,12 +40,12 @@ export default function Hero() {
 
         {/* Botones */}
         <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 bg-white text-black font-semibold rounded hover:bg-slate-200 transition-all">
+          <Link href="/Cases" className="px-8 py-3 bg-white text-black font-semibold rounded hover:bg-slate-200 transition-all">
             Ver Casos de Éxito
-          </button>
-          <button className="px-8 py-3 border border-slate-700 text-white rounded hover:bg-slate-900 transition-all">
+          </Link>
+          <Link href="/Services" className="px-8 py-3 border border-slate-700 text-white rounded hover:bg-slate-900 transition-all">
             Nuestra Tecnología
-          </button>
+          </Link>
         </div>
       </div>
     </section>
